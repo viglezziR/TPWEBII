@@ -1,5 +1,5 @@
-
 {include file="header.tpl"}
+
 <form action="addProduct" method="POST" enctype="multipart/form-data">
 
     <div class="mb-3">
@@ -68,4 +68,5 @@
     <button type="submit" class="btn btn-primary">Agregar</button>
 
 </form>
+
 {include file ="footer.tpl"}

@@ -1,5 +1,3 @@
-<!-- Formulario cargado con datos parametrizado por Id-->
-
 {include file="header.tpl"}
 
 <form action="updateProduct/{$product->id_products}" method="POST" enctype="multipart/form-data">

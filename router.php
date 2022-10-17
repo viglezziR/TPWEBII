@@ -13,10 +13,6 @@ if (!empty($_GET['action'])) {
 
 $params = explode('/', $action);
 
-// Instanciamineto de: $AuthController = new AuthController();
-// Instanciamiento de: $BrandController = new BrandController();
-// Instanciamiento de: $ProductController = new ProductController();
-
 switch ($params[0]) {
     //cases auth.
     case 'login':

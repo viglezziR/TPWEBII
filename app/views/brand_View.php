@@ -8,7 +8,6 @@ class BrandView {
         $this->smarty = new Smarty();
     }
 
-    //LISTA DE MARCAS
     function showBrands($brands) {
         $this->smarty->assign('brands', $brands);
         $this->smarty->display('brandList.tpl');
